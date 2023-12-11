@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
 import router from "./router.js";
-const  allowedOrigins = ["https://regi-login.vercel.app/"]
+const  allowedOrigins = ["https://regi-login.vercel.app"]
 app.use(
   cors({
     origin: function (origin, callback) {
