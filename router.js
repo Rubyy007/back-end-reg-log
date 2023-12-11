@@ -1,7 +1,7 @@
 import express from "express";
 const router = express.Router();
 import userModel from "./schema.js";
-
+axios.defaults.withCredentials = true
 router.post("/register", async (req, res) => {
     const { username, password, email } = req.body;
     try {
