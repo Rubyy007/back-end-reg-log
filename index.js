@@ -7,15 +7,7 @@ dotenv.config();
 const app = express();
 app.use(cors(
     {
-        origin : "https://regi-login.vercel.app"],
-        methods : ["POST","GET"],
-        credentials : true
-    },{
-        origin : "https://regi-login.vercel.app/reg1"],
-        methods : ["POST","GET"],
-        credentials : true
-    },{
-        origin : "https://regi-login.vercel.app/log"],
+        origin : "https://regi-login.vercel.app/"],
         methods : ["POST","GET"],
         credentials : true
     }
